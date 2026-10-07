@@ -1,0 +1,47 @@
+TRABALHO 1 - SIMULACAO DE REDE DE FILAS
+Gerador LCG: X0=7; a=1103515245; c=12345; M=2147483648
+Aleatorios consumidos na rede: 100000
+Tempo global (minutos): 50.843,439713
+Eventos processados: 58452
+Encerramento: limite de aleatorios atingido
+
+Fila Q1 - G/G/1 (capacidade ilimitada)
+Clientes perdidos: 0
+Estado n | Tempo acumulado (min) | Probabilidade | Percentual
+0 | 20.325,280109 | 0,399762098 | 39,976210%
+1 | 26.719,827133 | 0,525531461 | 52,553146%
+2 | 3.661,234784 | 0,072009974 | 7,200997%
+3 | 137,094302 | 0,002696401 | 0,269640%
+4 | 0,003384 | 0,000000067 | 0,000007%
+Estados acima de 4: nao observados nesta execucao.
+Soma dos tempos: 50.843,439713
+Soma das probabilidades: 1,000000000
+
+Fila Q2 - G/G/2/5
+Clientes perdidos: 4
+Estado n | Tempo acumulado (min) | Probabilidade | Percentual
+0 | 12.617,300333 | 0,248159849 | 24,815985%
+1 | 21.191,993620 | 0,416808810 | 41,680881%
+2 | 12.680,247038 | 0,249397899 | 24,939790%
+3 | 3.720,160485 | 0,073168938 | 7,316894%
+4 | 574,514079 | 0,011299670 | 1,129967%
+5 | 59,224159 | 0,001164834 | 0,116483%
+Soma dos tempos: 50.843,439713
+Soma das probabilidades: 1,000000000
+
+Fila Q3 - G/G/2/10
+Clientes perdidos: 11580
+Estado n | Tempo acumulado (min) | Probabilidade | Percentual
+0 | 3,299265 | 0,000064891 | 0,006489%
+1 | 7,078468 | 0,000139221 | 0,013922%
+2 | 6,733636 | 0,000132439 | 0,013244%
+3 | 6,752612 | 0,000132812 | 0,013281%
+4 | 1,304892 | 0,000025665 | 0,002566%
+5 | 2,842798 | 0,000055913 | 0,005591%
+6 | 4,964918 | 0,000097651 | 0,009765%
+7 | 45,733716 | 0,000899501 | 0,089950%
+8 | 2.901,945702 | 0,057076109 | 5,707611%
+9 | 15.857,138357 | 0,311881699 | 31,188170%
+10 | 32.005,645348 | 0,629494100 | 62,949410%
+Soma dos tempos: 50.843,439713
+Soma das probabilidades: 1,000000000
